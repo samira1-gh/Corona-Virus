@@ -6,7 +6,7 @@
   "scripts": {
 
     "watch": "node-sass -w dist/sass -o dist/css",
-    "concat": "concat -o Starter-file/dist/css/concat.css Starter-file/dist/css/header.css Starter-file/dist/css/accuile.css Starter-file/dist/css/footre.css",
+    "concat": "concat -o Starter-file/dist/css/concat.css Starter-file/dist/css/header.css Starter-file/dist/css/accuile.css Starter-file/dist/css/footre.css ",
     "prefix": "postcss starter-file/dist/css/concat.css --use autoprefixer --map=false -o starter-file/dist/css/prefix.css",
     "compress": "node-sass starter-file/dist/css/prefix.css starter-file/dist/css/style.css --output-style compressed",
     "build": "npm-run-all concat prefix compress"

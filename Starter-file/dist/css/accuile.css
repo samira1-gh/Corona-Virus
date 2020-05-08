@@ -29,8 +29,7 @@
     border: 1px solid #1078AD;
     width: 600px;
     height: 50px;
-    margin-left: 20%;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
     color: #fff;
     font-size: xx-large;
     border-radius: 8px; }
@@ -106,11 +105,7 @@
         font-weight: bolder;
         font-size: x-large;
         color: #1078AD;
-        border-radius: 5px;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        -ms-border-radius: 5px;
-        -o-border-radius: 5px; }
+        border-radius: 5px; }
       .section3 .woot__item2--href {
         margin-top: 8%;
         color: #fff;
@@ -118,14 +113,13 @@
 
 .section4 {
   background-color: #96C5DC;
-  height: 28vh; }
+  height: 45vh; }
   .section4__title {
     text-align: center;
     color: #1078AD;
     margin: 0;
     padding-top: 3%; }
   .section4__emoji {
-    padding-top: 20px;
     padding-bottom: 20px;
     display: block;
     margin-left: auto;
