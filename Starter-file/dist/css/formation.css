@@ -113,15 +113,19 @@ footer .footer {
 
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-weight: bold; }
 
 .steper {
-  padding: 2% 17% 0% 15%;
+  height: 150px;
+  width: 60%;
+  margin: auto;
   display: flex;
   text-align: center;
   justify-content: space-evenly; }
   .steper .part1 {
     display: flex;
+    margin: auto;
     justify-content: center;
     align-items: center;
     font-size: 20px;
@@ -129,28 +133,26 @@ footer .footer {
     position: relative; }
     .steper .part1::before {
       content: '';
-      height: 22px;
-      width: 22px;
+      height: 20px;
+      width: 20px;
+      margin: auto;
       background-color: #1078AD;
       border-radius: 50%;
       position: absolute;
-      top: -25px; }
-  .steper .part1__sam::before {
-    content: '';
-    height: 22px;
-    width: 22px;
-    background-color: #F4CF1B;
-    border-radius: 50%;
-    z-index: 100; }
-  .steper .part1__sam::after {
-    content: '';
-    height: 48px;
-    width: 48px;
-    background-color: #88b7d3;
-    border-radius: 50%;
-    position: relative;
-    bottom: 38px;
-    right: 55px; }
+      top: -24px;
+      left: 39px; }
+    .steper .part1__sam::before {
+      background-color: #F4CF1B;
+      z-index: 100; }
+    .steper .part1__sam::after {
+      content: '';
+      height: 40px;
+      width: 40px;
+      margin: auto;
+      background-color: #88b7d3;
+      border-radius: 50%;
+      position: absolute;
+      bottom: 17px; }
 
 .préambule, .resultats {
   width: 80%;
@@ -167,6 +169,18 @@ footer .footer {
     width: 25%;
     margin: 10px auto;
     border: 1px solid #F4CF1B; }
+  .préambule .par__button, .resultats .par__button {
+    align-items: center;
+    background-color: #1078AD;
+    border: 1px solid #1078AD;
+    width: 600px;
+    height: 50px;
+    color: #fff;
+    font-size: xx-large;
+    border-radius: 8px;
+    margin-left: 30%;
+    margin-top: 2%;
+    margin-bottom: 6%; }
 
 #question {
   text-align: center;
@@ -190,12 +204,12 @@ footer .footer {
     #question .progressbar .abc {
       width: 90%;
       height: 10px;
-      background-color: #D0E5F0;
+      background-color: #9ec8df;
       border-radius: 13px;
       margin: 20px auto; }
       #question .progressbar .abc .progress {
         height: 10px;
-        background-color: #96C5DC;
+        background-color: #1078AD;
         border-radius: 13px; }
 
 .quiz {
@@ -207,7 +221,6 @@ footer .footer {
 .btns {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
   padding: 55px; }
   .btns #btn-1,
   .btns #btn-2,
@@ -217,43 +230,11 @@ footer .footer {
     padding: 5px 10px;
     font-size: 1.5em;
     font-weight: 600;
-    background-color: #1078ad; }
+    background-color: #1078ad;
+    display: block; }
 
 .resultats {
   display: none; }
-
-.par__back {
-  background-color: #96C5DC;
-  width: 80%;
-  height: 140%;
-  margin-left: 200px;
-  font-size: x-large;
-  margin-bottom: 30px; }
-
-.par hr {
-  width: 30%;
-  margin: auto; }
-
-.par__title1 {
-  color: #1078AD;
-  margin-left: 40%;
-  padding: 3%; }
-
-.par__button {
-  align-items: center;
-  background-color: #1078AD;
-  border: 1px solid #1078AD;
-  width: 600px;
-  height: 50px;
-  color: #fff;
-  font-size: xx-large;
-  border-radius: 8px;
-  margin-left: 30%;
-  margin-top: 2%;
-  margin-bottom: 6%; }
-
-.par__paragrph1 {
-  list-style: none; }
 
 .section3 {
   background-color: #1078AD; }
